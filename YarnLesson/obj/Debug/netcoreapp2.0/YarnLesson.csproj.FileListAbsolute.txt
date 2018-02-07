@@ -1,0 +1,10 @@
+C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\YarnLesson\bin\Debug\netcoreapp2.0\YarnLesson.deps.json
+C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\YarnLesson\bin\Debug\netcoreapp2.0\YarnLesson.runtimeconfig.json
+C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\YarnLesson\bin\Debug\netcoreapp2.0\YarnLesson.runtimeconfig.dev.json
+C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\YarnLesson\bin\Debug\netcoreapp2.0\YarnLesson.dll
+C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\YarnLesson\bin\Debug\netcoreapp2.0\YarnLesson.pdb
+C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\YarnLesson\obj\Debug\netcoreapp2.0\YarnLesson.csproj.CoreCompileInputs.cache
+C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\YarnLesson\obj\Debug\netcoreapp2.0\YarnLesson.AssemblyInfoInputs.cache
+C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\YarnLesson\obj\Debug\netcoreapp2.0\YarnLesson.AssemblyInfo.cs
+C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\YarnLesson\obj\Debug\netcoreapp2.0\YarnLesson.dll
+C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\YarnLesson\obj\Debug\netcoreapp2.0\YarnLesson.pdb
