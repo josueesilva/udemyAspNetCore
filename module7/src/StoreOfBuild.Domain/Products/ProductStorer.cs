@@ -1,11 +1,12 @@
+using StoreOfBuild.Domain;
 using StoreOfBuild.Domain.Dtos;
 
 namespace StoreOfBuild.Domain.Products
 {
-    public class ProductStorer : IRepository
+    public class ProductStorer
     {
         private readonly IRepository<Product> _productRepository;
-        private readonly IRepository<Category> _categoryRepository {get; private set;}
+        private readonly IRepository<Category> _categoryRepository;
 
         public ProductStorer(IRepository<Product> productRepository, IRepository<Category> categoryRepository)
         {
@@ -16,7 +17,7 @@ namespace StoreOfBuild.Domain.Products
         public  void Store(ProductDto dto)
         {
             var category = _categoryRepository.GetById(dto.CategoryId);
-            DomainException.When(categiry == null, "category is required");
+            DomainException.When(category == null, "category is required");
 
             var product = _productRepository.GetById(dto.Id);
             if (product == null)
@@ -26,9 +27,6 @@ namespace StoreOfBuild.Domain.Products
             }
             else
                 product.Update(dto.Name, category, dto.Price, dto.StockQuantity);
-            
-            
-
         }
     }
 }

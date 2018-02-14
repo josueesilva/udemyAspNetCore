@@ -1,23 +1,25 @@
-using StoreBuild.Domain.Dtos;
+using StoreOfBuild.Domain;
+using StoreOfBuild.Domain.Dtos;
+using StoreOfBuild.Domain.Products;
 
 namespace StoreBuild.Domain.Products
 {
     public class CategoryStorer
     {
-        private readonly IRepoitory<Category> _categoryRepository;
+        private readonly IRepository<Category> _categoryRepository;
 
-        public CategoryStorer(IRepoitory<Category> categoryRepository)
+        public CategoryStorer(IRepository<Category> categoryRepository)
         {
             _categoryRepository = categoryRepository;
         }
         public void Store(CategoryDto dto)
         {
-            var category = _categoryRepository.GetById(dto.CategoryId);
-            DomainException.When(categiry == null, "category is required");
+            var category = _categoryRepository.GetById(dto.Id);
+            DomainException.When(category == null, "category is required");
 
             if (category == null)
             {
-                category = new Product(dto.Name);
+                category = new Category(dto.Name);
                 _categoryRepository.Save(category);
             }
             else

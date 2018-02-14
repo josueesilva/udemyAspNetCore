@@ -1,4 +1,4 @@
-namespace StoreOfBuyild.Domain
+namespace StoreOfBuild.Domain
 {
     public interface IRepository<TEntity>
     {

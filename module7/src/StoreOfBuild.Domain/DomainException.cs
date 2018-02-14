@@ -1,6 +1,6 @@
 using System;
 
-namespace StoreOfBulld.Domain
+namespace StoreOfBuild.Domain
 {
     public class DomainException : Exception
     {

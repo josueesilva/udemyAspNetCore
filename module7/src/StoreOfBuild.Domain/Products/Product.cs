@@ -15,7 +15,7 @@ namespace StoreOfBuild.Domain.Products
             SetProperties(name, category, price, stockQuantity);
         }
 
-        public void Product(string name, Category category, decimal price, int stockQuantity)
+        public void Update(string name, Category category, decimal price, int stockQuantity)
         {
             ValidateValues(name, category, price, stockQuantity);
             SetProperties(name, category, price, stockQuantity);
