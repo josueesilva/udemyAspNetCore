@@ -1,0 +1,3 @@
+C:\Projects\udemyAspNetCore\module7\src\StoreOfBuild.Domain\bin\Debug\netstandard1.4\StoreOfBuild.Domain.deps.json
+C:\Projects\udemyAspNetCore\module7\src\StoreOfBuild.Domain\obj\Debug\netstandard1.4\StoreOfBuild.Domain.csproj.CoreCompileInputs.cache
+C:\Projects\udemyAspNetCore\module7\src\StoreOfBuild.Domain\obj\Debug\netstandard1.4\StoreOfBuild.Domain.AssemblyInfo.cs
