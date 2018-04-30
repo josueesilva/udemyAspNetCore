@@ -3704,13 +3704,11 @@
   },
   "packageFolders": {
     "C:\\Users\\Josué Elias da Silva\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
       "projectUniqueName": "C:\\Users\\Josué Elias da Silva\\OneDrive\\Study  - Projects\\udemy\\module7\\src\\StoreOfBuild.Domain\\StoreOfBuild.Domain.csproj",
       "projectName": "StoreOfBuild.Domain",
@@ -3719,11 +3717,13 @@
       "outputPath": "C:\\Users\\Josué Elias da Silva\\OneDrive\\Study  - Projects\\udemy\\module7\\src\\StoreOfBuild.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\Josué Elias da Silva\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
       ],
       "originalTargetFrameworks": [
         "netstandard1.4"
@@ -3748,7 +3748,7 @@
         "dependencies": {
           "NETStandard.Library": {
             "target": "Package",
-            "version": "1.6.1",
+            "version": "[1.6.1, )",
             "autoReferenced": true
           }
         }
