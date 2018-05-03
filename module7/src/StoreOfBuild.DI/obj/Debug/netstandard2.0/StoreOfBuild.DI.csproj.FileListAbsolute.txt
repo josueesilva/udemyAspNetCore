@@ -1,0 +1,13 @@
+C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\module7\src\StoreOfBuild.DI\bin\Debug\netstandard2.0\StoreOfBuild.DI.deps.json
+C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\module7\src\StoreOfBuild.DI\bin\Debug\netstandard2.0\StoreOfBuild.DI.dll
+C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\module7\src\StoreOfBuild.DI\bin\Debug\netstandard2.0\StoreOfBuild.DI.pdb
+C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\module7\src\StoreOfBuild.DI\obj\Debug\netstandard2.0\StoreOfBuild.DI.csproj.CoreCompileInputs.cache
+C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\module7\src\StoreOfBuild.DI\obj\Debug\netstandard2.0\StoreOfBuild.DI.AssemblyInfoInputs.cache
+C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\module7\src\StoreOfBuild.DI\obj\Debug\netstandard2.0\StoreOfBuild.DI.AssemblyInfo.cs
+C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\module7\src\StoreOfBuild.DI\obj\Debug\netstandard2.0\StoreOfBuild.DI.dll
+C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\module7\src\StoreOfBuild.DI\obj\Debug\netstandard2.0\StoreOfBuild.DI.pdb
+C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\module7\src\StoreOfBuild.DI\bin\Debug\netstandard2.0\StoreOfBuild.Data.dll
+C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\module7\src\StoreOfBuild.DI\bin\Debug\netstandard2.0\StoreOfBuild.Domain.dll
+C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\module7\src\StoreOfBuild.DI\bin\Debug\netstandard2.0\StoreOfBuild.Data.pdb
+C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\module7\src\StoreOfBuild.DI\bin\Debug\netstandard2.0\StoreOfBuild.Domain.pdb
+C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\module7\src\StoreOfBuild.DI\obj\Debug\netstandard2.0\StoreOfBuild.DI.csproj.CopyComplete

@@ -1,0 +1,8 @@
+C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\module7\src\StoreOfBuild.Domain\bin\Debug\netstandard2.0\StoreOfBuild.Domain.deps.json
+C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\module7\src\StoreOfBuild.Domain\bin\Debug\netstandard2.0\StoreOfBuild.Domain.dll
+C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\module7\src\StoreOfBuild.Domain\bin\Debug\netstandard2.0\StoreOfBuild.Domain.pdb
+C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\module7\src\StoreOfBuild.Domain\obj\Debug\netstandard2.0\StoreOfBuild.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\module7\src\StoreOfBuild.Domain\obj\Debug\netstandard2.0\StoreOfBuild.Domain.AssemblyInfoInputs.cache
+C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\module7\src\StoreOfBuild.Domain\obj\Debug\netstandard2.0\StoreOfBuild.Domain.AssemblyInfo.cs
+C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\module7\src\StoreOfBuild.Domain\obj\Debug\netstandard2.0\StoreOfBuild.Domain.dll
+C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\module7\src\StoreOfBuild.Domain\obj\Debug\netstandard2.0\StoreOfBuild.Domain.pdb

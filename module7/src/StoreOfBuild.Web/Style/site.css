@@ -1,4 +1,5 @@
-﻿body {
+﻿
+body {
     padding-top: 50px;
     padding-bottom: 20px;
 }
@@ -21,9 +22,13 @@
     width: 100%;
 }
 
+.navbar-nav{
+    display: inline !important;
+}
+
 /* QR code generator */
 #qrCode {
-    margin: 15px;
+    margin: 15p
 }
 
 /* Hide/rearrange for smaller screens */

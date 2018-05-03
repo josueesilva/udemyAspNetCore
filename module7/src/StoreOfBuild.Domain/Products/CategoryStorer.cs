@@ -2,7 +2,7 @@ using StoreOfBuild.Domain;
 using StoreOfBuild.Domain.Dtos;
 using StoreOfBuild.Domain.Products;
 
-namespace StoreBuild.Domain.Products
+namespace StoreOfBuild.Domain.Products
 {
     public class CategoryStorer
     {
