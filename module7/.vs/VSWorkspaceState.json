@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\StoreOfBuild.Data",
+    "\\src\\StoreOfBuild.Web"
   ],
+  "SelectedNode": "\\src\\StoreOfBuild.Data",
   "PreviewInSolutionExplorer": false
 }

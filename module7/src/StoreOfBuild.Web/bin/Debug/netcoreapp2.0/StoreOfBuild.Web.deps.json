@@ -24,6 +24,7 @@
       "StoreOfBuild.Web/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.All": "2.0.6",
+          "Microsoft.EntityFrameworkCore.Design": "2.0.2",
           "Microsoft.NETCore.App": "2.0.0",
           "StoreOfBuild.DI": "1.0.0"
         },
@@ -3823,7 +3824,9 @@
       "StoreOfBuild.Data/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "2.0.2",
+          "Microsoft.EntityFrameworkCore.Design": "2.0.2",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.0.2",
+          "Microsoft.EntityFrameworkCore.SqlServer.Design": "1.1.2",
           "Microsoft.EntityFrameworkCore.Tools": "2.0.2",
           "StoreOfBuild.Domain": "1.0.0"
         },
@@ -3837,10 +3840,8 @@
       "StoreOfBuild.DI/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "2.0.2",
-          "Microsoft.EntityFrameworkCore.Design": "2.0.2",
           "Microsoft.EntityFrameworkCore.SqlServer": "2.0.2",
           "Microsoft.EntityFrameworkCore.SqlServer.Design": "1.1.2",
-          "Microsoft.EntityFrameworkCore.Tools": "2.0.2",
           "Microsoft.Extensions.DependencyInjection": "2.0.0",
           "StoreOfBuild.Data": "1.0.0"
         },

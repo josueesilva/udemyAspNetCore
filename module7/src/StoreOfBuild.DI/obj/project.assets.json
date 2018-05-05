@@ -1895,7 +1895,9 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "1.1.2",
+          "Microsoft.EntityFrameworkCore.Design": "1.1.2",
           "Microsoft.EntityFrameworkCore.SqlServer": "1.1.2",
+          "Microsoft.EntityFrameworkCore.SqlServer.Design": "1.1.2",
           "Microsoft.EntityFrameworkCore.Tools": "1.1.1",
           "StoreOfBuild.Domain": "1.0.0"
         },
@@ -6079,6 +6081,7 @@
             "version": "[1.1.2, )"
           },
           "Microsoft.EntityFrameworkCore.Design": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[1.1.2, )"
           },
@@ -6091,6 +6094,7 @@
             "version": "[1.1.2, )"
           },
           "Microsoft.EntityFrameworkCore.Tools": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[1.1.1, )"
           },

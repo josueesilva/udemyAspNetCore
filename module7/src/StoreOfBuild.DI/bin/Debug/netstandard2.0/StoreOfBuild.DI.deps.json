@@ -1226,7 +1226,9 @@
       "StoreOfBuild.Data/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "1.1.2",
+          "Microsoft.EntityFrameworkCore.Design": "1.1.2",
           "Microsoft.EntityFrameworkCore.SqlServer": "1.1.2",
+          "Microsoft.EntityFrameworkCore.SqlServer.Design": "1.1.2",
           "Microsoft.EntityFrameworkCore.Tools": "1.1.1",
           "StoreOfBuild.Domain": "1.0.0"
         },
