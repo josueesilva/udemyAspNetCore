@@ -1,7 +1,6 @@
 C:\Projects\udemyAspNetCore\module7\src\StoreOfBuild.Domain\bin\Debug\netstandard1.4\StoreOfBuild.Domain.deps.json
 C:\Projects\udemyAspNetCore\module7\src\StoreOfBuild.Domain\obj\Debug\netstandard1.4\StoreOfBuild.Domain.csproj.CoreCompileInputs.cache
 C:\Projects\udemyAspNetCore\module7\src\StoreOfBuild.Domain\obj\Debug\netstandard1.4\StoreOfBuild.Domain.AssemblyInfo.cs
-C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\module7\src\StoreOfBuild.Domain\obj\Debug\netstandard1.4\StoreOfBuild.Domain.csprojResolveAssemblyReference.cache
 C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\module7\src\StoreOfBuild.Domain\obj\Debug\netstandard1.4\StoreOfBuild.Domain.csproj.CoreCompileInputs.cache
 C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\module7\src\StoreOfBuild.Domain\obj\Debug\netstandard1.4\StoreOfBuild.Domain.AssemblyInfoInputs.cache
 C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\module7\src\StoreOfBuild.Domain\obj\Debug\netstandard1.4\StoreOfBuild.Domain.AssemblyInfo.cs
@@ -10,3 +9,4 @@ C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\module7\src\Stor
 C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\module7\src\StoreOfBuild.Domain\bin\Debug\netstandard1.4\StoreOfBuild.Domain.pdb
 C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\module7\src\StoreOfBuild.Domain\obj\Debug\netstandard1.4\StoreOfBuild.Domain.dll
 C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\module7\src\StoreOfBuild.Domain\obj\Debug\netstandard1.4\StoreOfBuild.Domain.pdb
+C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\module7\src\StoreOfBuild.Domain\obj\Debug\netstandard1.4\StoreOfBuild.Domain.csprojAssemblyReference.cache

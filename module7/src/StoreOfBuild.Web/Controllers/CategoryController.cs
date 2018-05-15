@@ -4,12 +4,21 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using StoreOfBuild.Domain.Dtos;
+using StoreOfBuild.Domain.Products;
 using StoreOfBuild.Web.Models;
 
 namespace StoreOfBuild.Web.Controllers
 {
     public class CategoryController : Controller
     {
+        private readonly CategoryStorer _categoryStorer;
+
+        public CategoryController(CategoryStorer categoryStorer)
+        {
+            _categoryStorer = categoryStorer;
+        }
+
         public IActionResult Index()
         {
             return View();
@@ -21,7 +30,7 @@ namespace StoreOfBuild.Web.Controllers
         }
 
         [HttpPost]
-        public IActionResult CreateOrEdit(int id)
+        public IActionResult CreateOrEdit(CategoryDto dto)
         {
             return View();
         }
