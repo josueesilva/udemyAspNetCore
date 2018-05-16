@@ -11,7 +11,7 @@ namespace StoreOfBuild.Domain
 
         public static void When(bool hasError, string error)
         {
-            if (!hasError)
+            if (hasError)
                 throw new DomainException(error);
         }
     

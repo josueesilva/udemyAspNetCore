@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using StoreOfBuild.Domain.Dtos;
 using StoreOfBuild.Domain.Products;
 using StoreOfBuild.Web.Models;
+using StoreOfBuild.Web.ViewsModels;
 
 namespace StoreOfBuild.Web.Controllers
 {
@@ -23,15 +24,16 @@ namespace StoreOfBuild.Web.Controllers
         {
             return View();
         }
-
-        public IActionResult CreateOrEdit()
+ 
+        public IActionResult CreateOrEdit(int id)
         {
             return View();
         }
 
         [HttpPost]
-        public IActionResult CreateOrEdit(CategoryDto dto)
+        public IActionResult CreateOrEdit([FromForm]CategoryViewModel viewModel)
         {
+            _categoryStorer.Store(viewModel.Id, viewModel.Name);
             return View();
         }
     }

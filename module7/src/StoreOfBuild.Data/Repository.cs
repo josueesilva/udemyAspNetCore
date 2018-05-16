@@ -14,7 +14,10 @@ namespace StoreOfBuild.Data
 
         public TEntity GetById(int id)
         {
-            return _context.Set<TEntity>().SingleOrDefault(e => e.Id == id);
+            var query = _context.Set<TEntity>().Where(e => e.Id == id);
+            if(query.Any())
+                return query.First();
+            return null;
         }
 
         public void Save(TEntity entity)
