@@ -12675,11 +12675,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Josué Elias da Silva\\OneDrive\\Study  - Projects\\udemy\\module7\\src\\StoreOfBuild.Web\\StoreOfBuild.Web.csproj",
+      "projectUniqueName": "C:\\Users\\Josué Elias da Silva\\OneDrive\\Study  - Projects\\udemy\\udemyAspNetCore\\module7\\src\\StoreOfBuild.Web\\StoreOfBuild.Web.csproj",
       "projectName": "StoreOfBuild.Web",
-      "projectPath": "C:\\Users\\Josué Elias da Silva\\OneDrive\\Study  - Projects\\udemy\\module7\\src\\StoreOfBuild.Web\\StoreOfBuild.Web.csproj",
+      "projectPath": "C:\\Users\\Josué Elias da Silva\\OneDrive\\Study  - Projects\\udemy\\udemyAspNetCore\\module7\\src\\StoreOfBuild.Web\\StoreOfBuild.Web.csproj",
       "packagesPath": "C:\\Users\\Josué Elias da Silva\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Josué Elias da Silva\\OneDrive\\Study  - Projects\\udemy\\module7\\src\\StoreOfBuild.Web\\obj\\",
+      "outputPath": "C:\\Users\\Josué Elias da Silva\\OneDrive\\Study  - Projects\\udemy\\udemyAspNetCore\\module7\\src\\StoreOfBuild.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -12698,11 +12698,11 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\Josué Elias da Silva\\OneDrive\\Study  - Projects\\udemy\\module7\\src\\StoreOfBuild.DI\\StoreOfBuild.DI.csproj": {
-              "projectPath": "C:\\Users\\Josué Elias da Silva\\OneDrive\\Study  - Projects\\udemy\\module7\\src\\StoreOfBuild.DI\\StoreOfBuild.DI.csproj"
+            "C:\\Users\\Josué Elias da Silva\\OneDrive\\Study  - Projects\\udemy\\udemyAspNetCore\\module7\\src\\StoreOfBuild.DI\\StoreOfBuild.DI.csproj": {
+              "projectPath": "C:\\Users\\Josué Elias da Silva\\OneDrive\\Study  - Projects\\udemy\\udemyAspNetCore\\module7\\src\\StoreOfBuild.DI\\StoreOfBuild.DI.csproj"
             },
-            "C:\\Users\\Josué Elias da Silva\\OneDrive\\Study  - Projects\\udemy\\module7\\src\\StoreOfBuild.Domain\\StoreOfBuild.Domain.csproj": {
-              "projectPath": "C:\\Users\\Josué Elias da Silva\\OneDrive\\Study  - Projects\\udemy\\module7\\src\\StoreOfBuild.Domain\\StoreOfBuild.Domain.csproj"
+            "C:\\Users\\Josué Elias da Silva\\OneDrive\\Study  - Projects\\udemy\\udemyAspNetCore\\module7\\src\\StoreOfBuild.Domain\\StoreOfBuild.Domain.csproj": {
+              "projectPath": "C:\\Users\\Josué Elias da Silva\\OneDrive\\Study  - Projects\\udemy\\udemyAspNetCore\\module7\\src\\StoreOfBuild.Domain\\StoreOfBuild.Domain.csproj"
             }
           }
         }

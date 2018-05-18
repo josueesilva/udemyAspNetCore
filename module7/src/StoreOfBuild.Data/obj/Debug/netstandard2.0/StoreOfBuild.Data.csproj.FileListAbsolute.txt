@@ -10,3 +10,15 @@ C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\module7\src\Stor
 C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\module7\src\StoreOfBuild.Data\obj\Debug\netstandard2.0\StoreOfBuild.Data.dll
 C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\module7\src\StoreOfBuild.Data\obj\Debug\netstandard2.0\StoreOfBuild.Data.pdb
 C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\module7\src\StoreOfBuild.Data\obj\Debug\netstandard2.0\StoreOfBuild.Data.csprojAssemblyReference.cache
+C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\udemyAspNetCore\module7\src\StoreOfBuild.Data\bin\Debug\netstandard2.0\StoreOfBuild.Data.deps.json
+C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\udemyAspNetCore\module7\src\StoreOfBuild.Data\bin\Debug\netstandard2.0\StoreOfBuild.Data.dll
+C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\udemyAspNetCore\module7\src\StoreOfBuild.Data\bin\Debug\netstandard2.0\StoreOfBuild.Data.pdb
+C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\udemyAspNetCore\module7\src\StoreOfBuild.Data\bin\Debug\netstandard2.0\StoreOfBuild.Domain.dll
+C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\udemyAspNetCore\module7\src\StoreOfBuild.Data\bin\Debug\netstandard2.0\StoreOfBuild.Domain.pdb
+C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\udemyAspNetCore\module7\src\StoreOfBuild.Data\obj\Debug\netstandard2.0\StoreOfBuild.Data.csprojAssemblyReference.cache
+C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\udemyAspNetCore\module7\src\StoreOfBuild.Data\obj\Debug\netstandard2.0\StoreOfBuild.Data.csproj.CoreCompileInputs.cache
+C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\udemyAspNetCore\module7\src\StoreOfBuild.Data\obj\Debug\netstandard2.0\StoreOfBuild.Data.AssemblyInfoInputs.cache
+C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\udemyAspNetCore\module7\src\StoreOfBuild.Data\obj\Debug\netstandard2.0\StoreOfBuild.Data.AssemblyInfo.cs
+C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\udemyAspNetCore\module7\src\StoreOfBuild.Data\obj\Debug\netstandard2.0\StoreOfBuild.Data.csproj.CopyComplete
+C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\udemyAspNetCore\module7\src\StoreOfBuild.Data\obj\Debug\netstandard2.0\StoreOfBuild.Data.dll
+C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\udemyAspNetCore\module7\src\StoreOfBuild.Data\obj\Debug\netstandard2.0\StoreOfBuild.Data.pdb

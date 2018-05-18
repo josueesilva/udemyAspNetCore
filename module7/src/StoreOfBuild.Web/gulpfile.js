@@ -19,6 +19,8 @@ gulp.task('js', function(){
         './node_modules/jquery/dist/jquery.min.js',
         './node_modules/jquery-validation/dist/jquery.validate.min.js',
         './node_modules/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js',
+        './node_modules/jquery-ajax-unobtrusive/jquery.unobtrusive-ajax.min.js',
+        './node_modules/toastr/build/toastr.min.js',
         './Js/site.js',
     ])
     .pipe(gulp.dest('wwwroot/js/'))
@@ -29,7 +31,8 @@ gulp.task('js', function(){
 gulp.task('css', function(){
     return gulp.src([
         './styles/site.css',
-        './node_modules/bootstrap/dist/css/bootstrap.css'
+        './node_modules/bootstrap/dist/css/bootstrap.css',
+        './node_modules/toastr/build/toastr.min.css'
     ])
     .pipe(concat('site.min.css'))
     .pipe(cssmin())

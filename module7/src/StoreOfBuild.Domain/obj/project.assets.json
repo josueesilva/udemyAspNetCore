@@ -3709,11 +3709,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Josué Elias da Silva\\OneDrive\\Study  - Projects\\udemy\\module7\\src\\StoreOfBuild.Domain\\StoreOfBuild.Domain.csproj",
+      "projectUniqueName": "c:\\Users\\Josué Elias da Silva\\OneDrive\\Study  - Projects\\udemy\\udemyAspNetCore\\module7\\src\\StoreOfBuild.Domain\\StoreOfBuild.Domain.csproj",
       "projectName": "StoreOfBuild.Domain",
-      "projectPath": "C:\\Users\\Josué Elias da Silva\\OneDrive\\Study  - Projects\\udemy\\module7\\src\\StoreOfBuild.Domain\\StoreOfBuild.Domain.csproj",
+      "projectPath": "c:\\Users\\Josué Elias da Silva\\OneDrive\\Study  - Projects\\udemy\\udemyAspNetCore\\module7\\src\\StoreOfBuild.Domain\\StoreOfBuild.Domain.csproj",
       "packagesPath": "C:\\Users\\Josué Elias da Silva\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Josué Elias da Silva\\OneDrive\\Study  - Projects\\udemy\\module7\\src\\StoreOfBuild.Domain\\obj\\",
+      "outputPath": "c:\\Users\\Josué Elias da Silva\\OneDrive\\Study  - Projects\\udemy\\udemyAspNetCore\\module7\\src\\StoreOfBuild.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

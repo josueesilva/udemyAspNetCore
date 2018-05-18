@@ -3086,11 +3086,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Josué Elias da Silva\\OneDrive\\Study  - Projects\\udemy\\module7\\src\\StoreOfBuild.Data\\StoreOfBuild.Data.csproj",
+      "projectUniqueName": "C:\\Users\\Josué Elias da Silva\\OneDrive\\Study  - Projects\\udemy\\udemyAspNetCore\\module7\\src\\StoreOfBuild.Data\\StoreOfBuild.Data.csproj",
       "projectName": "StoreOfBuild.Data",
-      "projectPath": "C:\\Users\\Josué Elias da Silva\\OneDrive\\Study  - Projects\\udemy\\module7\\src\\StoreOfBuild.Data\\StoreOfBuild.Data.csproj",
+      "projectPath": "C:\\Users\\Josué Elias da Silva\\OneDrive\\Study  - Projects\\udemy\\udemyAspNetCore\\module7\\src\\StoreOfBuild.Data\\StoreOfBuild.Data.csproj",
       "packagesPath": "C:\\Users\\Josué Elias da Silva\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Josué Elias da Silva\\OneDrive\\Study  - Projects\\udemy\\module7\\src\\StoreOfBuild.Data\\obj\\",
+      "outputPath": "C:\\Users\\Josué Elias da Silva\\OneDrive\\Study  - Projects\\udemy\\udemyAspNetCore\\module7\\src\\StoreOfBuild.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3109,8 +3109,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\Josué Elias da Silva\\OneDrive\\Study  - Projects\\udemy\\module7\\src\\StoreOfBuild.Domain\\StoreOfBuild.Domain.csproj": {
-              "projectPath": "C:\\Users\\Josué Elias da Silva\\OneDrive\\Study  - Projects\\udemy\\module7\\src\\StoreOfBuild.Domain\\StoreOfBuild.Domain.csproj"
+            "C:\\Users\\Josué Elias da Silva\\OneDrive\\Study  - Projects\\udemy\\udemyAspNetCore\\module7\\src\\StoreOfBuild.Domain\\StoreOfBuild.Domain.csproj": {
+              "projectPath": "C:\\Users\\Josué Elias da Silva\\OneDrive\\Study  - Projects\\udemy\\udemyAspNetCore\\module7\\src\\StoreOfBuild.Domain\\StoreOfBuild.Domain.csproj"
             }
           }
         }
