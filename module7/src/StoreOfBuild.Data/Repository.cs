@@ -1,4 +1,5 @@
 using StoreOfBuild.Domain;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace StoreOfBuild.Data
@@ -18,6 +19,16 @@ namespace StoreOfBuild.Data
             if(query.Any())
                 return query.First();
             return null;
+        }
+
+        public IEnumerable<TEntity> All()
+        {
+            var query = _context.Set<TEntity>();
+
+            if(query.Any())
+                return query.ToList();
+
+            return new List<TEntity>();
         }
 
         public void Save(TEntity entity)

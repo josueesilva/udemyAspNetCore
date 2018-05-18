@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using StoreOfBuild.Domain;
 using StoreOfBuild.Domain.Dtos;
 using StoreOfBuild.Domain.Products;
 using StoreOfBuild.Web.Models;
@@ -14,15 +15,22 @@ namespace StoreOfBuild.Web.Controllers
     public class CategoryController : Controller
     {
         private readonly CategoryStorer _categoryStorer;
-
-        public CategoryController(CategoryStorer categoryStorer)
+        private readonly IRepository<Category>  _categoryRepository;
+        public CategoryController(CategoryStorer categoryStorer,
+            IRepository<Category> categoryRepository)
         {
             _categoryStorer = categoryStorer;
+            _categoryRepository = categoryRepository;
         }
 
         public IActionResult Index()
         {
-            return View();
+            var categories = _categoryRepository.All();
+
+            var viewModels = categories.Select(c => new CategoryViewModel{Id = c.Id, Name = c.Name});
+            var teste = categories.ToList();
+
+            return View(viewModels);
         }
  
         public IActionResult CreateOrEdit(int id)
