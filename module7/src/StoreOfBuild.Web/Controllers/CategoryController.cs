@@ -28,14 +28,22 @@ namespace StoreOfBuild.Web.Controllers
             var categories = _categoryRepository.All();
 
             var viewModels = categories.Select(c => new CategoryViewModel{Id = c.Id, Name = c.Name});
-            var teste = categories.ToList();
 
             return View(viewModels);
         }
  
         public IActionResult CreateOrEdit(int id)
         {
-            return View();
+
+            if (id > 0)
+            {
+                var category = _categoryRepository.GetById(id);
+
+                var categoryViewModel  = category != null ? new CategoryViewModel { Id = category.Id, Name = category.Name } : null;
+
+                return View(categoryViewModel);                
+            }
+            else return View();
         }
 
         [HttpPost]
