@@ -5,14 +5,14 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage;
 using Microsoft.EntityFrameworkCore.Storage.Internal;
-using StoreOfBuild.Data;
+using StoreOfBuild.Data.Contexts;
 using System;
 
 namespace StoreOfBuild.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20180509003244_AddCategory")]
-    partial class AddCategory
+    [Migration("20180520165349_Addcategory")]
+    partial class Addcategory
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -31,6 +31,33 @@ namespace StoreOfBuild.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Categories");
+                });
+
+            modelBuilder.Entity("StoreOfBuild.Domain.Products.Product", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<int?>("CategoryId");
+
+                    b.Property<string>("Name");
+
+                    b.Property<decimal>("Price");
+
+                    b.Property<int>("StockQuantity");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CategoryId");
+
+                    b.ToTable("Products");
+                });
+
+            modelBuilder.Entity("StoreOfBuild.Domain.Products.Product", b =>
+                {
+                    b.HasOne("StoreOfBuild.Domain.Products.Category", "Category")
+                        .WithMany()
+                        .HasForeignKey("CategoryId");
                 });
 #pragma warning restore 612, 618
         }

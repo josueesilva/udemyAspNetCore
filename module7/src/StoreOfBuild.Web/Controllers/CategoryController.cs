@@ -5,7 +5,6 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using StoreOfBuild.Domain;
-using StoreOfBuild.Domain.Dtos;
 using StoreOfBuild.Domain.Products;
 using StoreOfBuild.Web.Models;
 using StoreOfBuild.Web.ViewsModels;

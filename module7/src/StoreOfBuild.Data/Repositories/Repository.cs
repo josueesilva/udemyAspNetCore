@@ -1,19 +1,21 @@
 using StoreOfBuild.Domain;
 using System.Collections.Generic;
+using Microsoft.EntityFrameworkCore;
+using StoreOfBuild.Data.Contexts;
 using System.Linq;
 
-namespace StoreOfBuild.Data
+namespace StoreOfBuild.Data.Repositories
 {
     public class Repository<TEntity> : IRepository<TEntity> where TEntity : Entity
     {
-        private readonly ApplicationDbContext _context;
+        protected readonly ApplicationDbContext _context;
 
         public Repository(ApplicationDbContext context)
         {
             _context = context;
         }
 
-        public TEntity GetById(int id)
+        public virtual TEntity GetById(int id)
         {
             var query = _context.Set<TEntity>().Where(e => e.Id == id);
             if(query.Any())
@@ -21,7 +23,7 @@ namespace StoreOfBuild.Data
             return null;
         }
 
-        public IEnumerable<TEntity> All()
+        public virtual IEnumerable<TEntity> All()
         {
             var query = _context.Set<TEntity>();
 
@@ -31,7 +33,7 @@ namespace StoreOfBuild.Data
             return new List<TEntity>();
         }
 
-        public void Save(TEntity entity)
+        public virtual void Save(TEntity entity)
         {
             _context.Set<TEntity>().Add(entity);
         }
