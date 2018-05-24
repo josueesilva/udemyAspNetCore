@@ -11,8 +11,8 @@ using System;
 namespace StoreOfBuild.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20180520165349_Addcategory")]
-    partial class Addcategory
+    [Migration("20180521234958_AddSale")]
+    partial class AddSale
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -53,11 +53,65 @@ namespace StoreOfBuild.Data.Migrations
                     b.ToTable("Products");
                 });
 
+            modelBuilder.Entity("StoreOfBuild.Domain.Sales.Sale", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("ClientName");
+
+                    b.Property<DateTime>("CreateOn");
+
+                    b.Property<int?>("ItemId");
+
+                    b.Property<decimal>("Total");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ItemId");
+
+                    b.ToTable("Sales");
+                });
+
+            modelBuilder.Entity("StoreOfBuild.Domain.Sales.SaleItem", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<decimal>("Price");
+
+                    b.Property<int?>("ProductId");
+
+                    b.Property<int>("Quantity");
+
+                    b.Property<decimal>("Total");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("SaleItem");
+                });
+
             modelBuilder.Entity("StoreOfBuild.Domain.Products.Product", b =>
                 {
                     b.HasOne("StoreOfBuild.Domain.Products.Category", "Category")
                         .WithMany()
                         .HasForeignKey("CategoryId");
+                });
+
+            modelBuilder.Entity("StoreOfBuild.Domain.Sales.Sale", b =>
+                {
+                    b.HasOne("StoreOfBuild.Domain.Sales.SaleItem", "Item")
+                        .WithMany()
+                        .HasForeignKey("ItemId");
+                });
+
+            modelBuilder.Entity("StoreOfBuild.Domain.Sales.SaleItem", b =>
+                {
+                    b.HasOne("StoreOfBuild.Domain.Products.Product", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProductId");
                 });
 #pragma warning restore 612, 618
         }

@@ -6,6 +6,7 @@ using StoreOfBuild.Data.Contexts;
 using StoreOfBuild.Data.Repositories;
 using StoreOfBuild.Domain;
 using StoreOfBuild.Domain.Products;
+using StoreOfBuild.Domain.Sales;
 
 namespace StoreOfBuild.DI
 {
@@ -19,6 +20,7 @@ namespace StoreOfBuild.DI
             services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
             services.AddScoped(typeof(CategoryStorer));
             services.AddScoped(typeof(ProductStorer));
+            services.AddScoped(typeof(SaleFactory));
             services.AddScoped(typeof(IUnitOfWork), typeof(UnitOfWork));
         }
     }

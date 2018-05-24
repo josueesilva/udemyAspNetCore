@@ -57,7 +57,7 @@ namespace StoreOfBuild.Web.Controllers
         }
 
         [HttpPost]
-        public IActionResult CreateOrEdit(ProductViewModel viewModel)
+        public IActionResult CreateOrEdit([FromForm]ProductViewModel viewModel)
         {
             _productStorer.Store(viewModel.Id, viewModel.Name, viewModel.CategoryId, viewModel.Price, viewModel.StockQuantity);
             return RedirectToAction("Index");
