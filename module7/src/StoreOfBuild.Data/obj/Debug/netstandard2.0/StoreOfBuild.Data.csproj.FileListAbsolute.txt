@@ -22,3 +22,5 @@ C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\udemyAspNetCore\
 C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\udemyAspNetCore\module7\src\StoreOfBuild.Data\obj\Debug\netstandard2.0\StoreOfBuild.Data.csproj.CopyComplete
 C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\udemyAspNetCore\module7\src\StoreOfBuild.Data\obj\Debug\netstandard2.0\StoreOfBuild.Data.dll
 C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\udemyAspNetCore\module7\src\StoreOfBuild.Data\obj\Debug\netstandard2.0\StoreOfBuild.Data.pdb
+C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\udemyAspNetCore\module7\src\StoreOfBuild.Data\bin\Debug\netstandard2.0\StoreOfBuild.Data.runtimeconfig.json
+C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\udemyAspNetCore\module7\src\StoreOfBuild.Data\bin\Debug\netstandard2.0\StoreOfBuild.Data.runtimeconfig.dev.json
