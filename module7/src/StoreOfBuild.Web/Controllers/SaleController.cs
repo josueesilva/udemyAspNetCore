@@ -39,14 +39,10 @@ namespace StoreOfBuild.Web.Controllers
 
         private SaleViewModel ProductList()
         {
-             var products = _productRepository.All();
-            if (products.Any())
-            {
-                var productsViewModel = products.Select(c => new ProductViewModel{Id = c.Id, Name = c.Name});
-            
-                return new SaleViewModel{Products = productsViewModel};    
-            }
-            return new SaleViewModel{Products = new List<ProductViewModel>()};    
+            var products = _productRepository.All();
+            var productsViewModel = products.Select(c => new ProductViewModel{Id = c.Id, Name = c.Name});
+        
+            return new SaleViewModel{Products = productsViewModel};     
         }
     }
 }

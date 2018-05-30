@@ -4,7 +4,7 @@ using StoreOfBuild.Domain.Account;
 
 namespace StoreOfBuild.Data.Identity
 {
-    public class Authentication
+    public class Authentication : IAuthentication
     {
         private readonly SignInManager<ApplicationUser> _signInManager;
 

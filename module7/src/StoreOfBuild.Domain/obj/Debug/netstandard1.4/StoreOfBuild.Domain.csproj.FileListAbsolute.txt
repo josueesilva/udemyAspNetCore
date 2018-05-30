@@ -19,5 +19,3 @@ C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\udemyAspNetCore\
 C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\udemyAspNetCore\module7\src\StoreOfBuild.Domain\obj\Debug\netstandard1.4\StoreOfBuild.Domain.AssemblyInfo.cs
 C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\udemyAspNetCore\module7\src\StoreOfBuild.Domain\obj\Debug\netstandard1.4\StoreOfBuild.Domain.dll
 C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\udemyAspNetCore\module7\src\StoreOfBuild.Domain\obj\Debug\netstandard1.4\StoreOfBuild.Domain.pdb
-C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\udemyAspNetCore\module7\src\StoreOfBuild.Domain\bin\Debug\netstandard1.4\StoreOfBuild.Domain.runtimeconfig.json
-C:\Users\Josué Elias da Silva\OneDrive\Study  - Projects\udemy\udemyAspNetCore\module7\src\StoreOfBuild.Domain\bin\Debug\netstandard1.4\StoreOfBuild.Domain.runtimeconfig.dev.json
